@@ -8,7 +8,7 @@ import groq
 if 'client' not in globals():
     try:
         from google.colab import userdata
-        GROQ_API_KEY = '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'
+        GROQ_API_KEY = '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'
     except ImportError:
         GROQ_API_KEY = os.environ.get('GROQ_API_KEY')
 
